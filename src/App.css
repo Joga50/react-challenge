@@ -1,0 +1,268 @@
+.App {
+  text-align: center;
+}
+.navbar {
+  background: linear-gradient(to bottom, #8a2be2, #4747ae);
+}
+/* theme  */
+.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+/* backgrounds images  */
+
+.login-container {
+  background-image: url("https://wallpaperaccess.com/full/3115119.jpg");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.episodes-container {
+  height: auto;
+  position: relative;
+}
+
+.locations-container {
+  height: auto;
+  position: relative;
+}
+
+.favorites-container {
+  height: auto;
+  position: relative;
+}
+
+.characters-container {
+  height: auto;
+  position: relative;
+}
+
+.register-container {
+  background-image: url("https://images3.alphacoders.com/812/812062.png");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.home-container {
+  background-image: url("https://www.xtrafondos.com/descargar.php?id=6354&resolucion=3840x2160");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+/* card -- */
+
+.characters-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.episodes-container {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+}
+.locations-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.favorites-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.character-card {
+  background: linear-gradient(to bottom, #d3c3e2, #4747ae);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(141, 172, 80, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  width: 90%;
+  max-width: 350px;
+  height: auto;
+  margin: 10px;
+}
+
+.character-card img {
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: auto;
+}
+
+.character-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.character-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.character-card p {
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+
+.character-card button {
+  background-color: #2196f3;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 0.5em;
+  width: 90%;
+  max-width: 200px;
+}
+
+.locations-container {
+  display: flex;
+
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.location-card {
+  background: linear-gradient(to bottom, #a978d7, #4747ae);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  margin: 10px;
+}
+
+.location-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.location-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.location-card p {
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+
+.location-card button {
+  background-color: #2196f3;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 0.5em;
+  width: 90%;
+  max-width: 200px;
+}
+
+.episodes-container {
+  display: flex;
+
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.episode-card {
+  background: linear-gradient(to bottom, #a978d7, #4747ae);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  width: 90%;
+  max-width: 350px;
+  height: auto;
+  margin: 10px;
+}
+
+.episode-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.episode-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.episode-card p {
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+
+.episode-card button {
+  background-color: #2196f3;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 0.5em;
+  width: 90%;
+  max-width: 200px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #8a2be2, #4747ae);
+}
+
+/* Media queries  */
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  flex: 1 0 25%; /* Set the width of each column to 25% */
+  margin: 0 1rem 2rem;
+}
+
+/* Estilos para pantallas de 400px a 800px */
+@media (min-width: 400px) and (max-width: 800px) {
+  .product-card {
+    flex-basis: 50%; /* Set the width of each column to 50% */
+  }
+}
+
+/* Estilos para pantallas de 801px a 1200px */
+@media (min-width: 801px) and (max-width: 1200px) {
+  .product-card {
+    flex-basis: 33.33%; /* Set the width of each column to 33.33% */
+  }
+}
+
+/* Estilos para pantallas de 1201px a 1920px */
+@media (min-width: 1201px) and (max-width: 1920px) {
+  .product-card {
+    flex-basis: 25%; /* Set the width of each column to 25% */
+  }
+}
